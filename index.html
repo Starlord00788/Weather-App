@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div id="item">
+        <input type="text" placeholder="Country" class="inputs" id="country" />
+        <button onclick="fetchdata()" id="getweather">Get Weather</button>
+      </div>
+
+      <div class="contents" style="display: none">
+        <div id="countryname">Country:</div>
+        <div id="temperature">Temperature:</div>
+        <div id="humidity">Humidity:</div>
+        <div id="atmosphere">Atmosphere:</div>
+        <div id="emoji"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

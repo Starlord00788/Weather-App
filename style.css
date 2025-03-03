@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
+.app{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(241, 236, 236);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputs{
+    outline: none;
+    height: 30px;
+font-size: 20px;
+border-radius: 5px;
+border: grey;
+border-width: 5px;
+    font-weight: bolder;
+
+    font-family: sans-serif;
+}
+#getweather{
+background-color: rgb(47, 213, 47);
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+#item{margin: auto;
+
+}
+.contents{
+   
+   background-color: rgb(237, 237, 97);
+   width: 400px;
+   height: 500px;
+   margin: auto;
+   box-shadow: 2px 2px 8px 8px grey;
+   background: linear-gradient(to bottom,#83BFF9,#E8C47F);
+   font-size: 20px;
+   font-family: sans-serif;
+   display: flex;
+   flex-direction: column;
+text-align: center;
+
+align-content: center;
+   
+}
+
+#countryname{
+
+    font-weight: bold;
+    font-size:45px;
+ padding: 10px;
+}
+#temperature{
+    font-size: 40px;
+    padding: 10px;
+}
+#humidity{
+    font-size: 30px;
+    padding: 10px;
+}
+#atmosphere{
+    font-size: 40px;
+    padding: 10px;
+}
+
+#emoji{
+    font-size: 95px;
+    padding: 10px;
+}
